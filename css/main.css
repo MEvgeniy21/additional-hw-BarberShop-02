@@ -1,5 +1,5 @@
 @charset "UTF-8";
-.navigation__list, .info-list, .about__list, .advantage__list {
+.navigation__list, .info-list, .card-list, .social-list, .about__list, .advantage__list {
   list-style: none;
 }
 
@@ -7,7 +7,7 @@
   text-decoration: none;
 }
 
-.about__img {
+.card-list__img, .about__img {
   display: block;
   max-width: 100%;
   height: auto;
@@ -200,6 +200,68 @@ ul {
   font-size: 42px;
   line-height: 1.17;
   letter-spacing: 0.05em;
+}
+
+.card-list {
+  display: flex;
+  margin-left: -30px;
+}
+
+.card-list__item {
+  flex-basis: calc(100% / 3 - 30px);
+  margin-left: 30px;
+}
+
+.card-list__img {
+  margin-bottom: 30px;
+}
+
+.card-list__title {
+  margin-bottom: 8px;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 1.39;
+  text-align: center;
+  letter-spacing: 0.02em;
+  color: #303030;
+}
+
+.card-list__position {
+  margin-bottom: 30px;
+  font-size: 14px;
+  line-height: 1.36;
+  text-align: center;
+  letter-spacing: 0.02em;
+  color: #ff6c00;
+}
+
+.social-list {
+  display: flex;
+  justify-content: center;
+}
+
+.social-list__item:not(:first-child) {
+  margin-left: 10px;
+}
+
+.social-list__link {
+  display: flex;
+  width: 44px;
+  height: 44px;
+  justify-content: center;
+  align-items: center;
+  color: #303030;
+  background-color: #ffffff;
+  border-radius: 50%;
+  transition: color 250ms linear;
+}
+
+.social-list__link:hover, .social-list__link:focus {
+  color: #ff6c00;
+}
+
+.social-list__icon {
+  fill: currentColor;
 }
 
 /* -------- HEADER ------- */
@@ -533,6 +595,27 @@ ul {
 
 .advantage__title {
   margin-bottom: 20px;
+  color: #303030;
+}
+
+/* секция masters */
+.masters {
+  padding-top: 130px;
+  padding-bottom: 130px;
+  background-color: #f7f7f7;
+}
+
+.masters__pre-title {
+  margin-bottom: 20px;
+  color: #303030;
+}
+
+.masters__pre-title::before {
+  background-color: #303030;
+}
+
+.masters__title {
+  margin-bottom: 44px;
   color: #303030;
 }
 /*# sourceMappingURL=main.css.map */
