@@ -1,28 +1,3 @@
-/* секция gallery */
-
-.gallery {
-  padding-top: 130px;
-  padding-bottom: 130px;
-}
-
-.gallery-pre-title {
-  margin-bottom: var(--heading-distance);
-  color: var(--primary-pre-title-color);
-}
-
-.gallery-pre-title::before {
-  background-color: var(--primary-pre-title-color);
-}
-
-.gallery-list {
-  display: flex;
-  margin-left: calc(-1 * var(--image-distance));
-}
-
-.gallery-list .item {
-  margin-left: var(--image-distance);
-}
-
 /* Блок Feedback */
 .feedback {
   padding-top: 130px;
