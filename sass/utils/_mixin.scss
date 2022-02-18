@@ -1,5 +1,9 @@
+@mixin link($link) {
+  text-decoration: $link;
+}
+
 @mixin header-link($hl) {
-  @extend %link;
+  @include link(none);
   padding-top: $hl;
   padding-bottom: $hl;
   color: $first-text-color;

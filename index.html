@@ -165,7 +165,7 @@
       <!-- Секция почему мы -->
       <section class="advantage">
         <div class="container advantage__container">
-          <div class="advantage__box-left">
+          <div class="advantage__box advantage__box--left">
             <ul class="list advantage__list">
               <li class="advantage__item">
                 <span class="advantage__value">600</span>
@@ -185,7 +185,7 @@
               </li>
             </ul>
           </div>
-          <div class="advantage__box-right">
+          <div class="advantage__box advantage__box--right">
             <div class="advantage__right-wrap">
               <p class="advantage__pre-title pre-title">старая традиционная школа</p>
               <h2 class="advantage__title font-title">Почему приходят именно к нам?</h2>
@@ -404,77 +404,80 @@
         </div>
       </section>
       <div class="feedback">
-        <div class="container feedback-container">
+        <div class="container feedback__container">
           <!-- Секция онлайн-запись -->
           <section class="online">
-            <h2 class="online-title title">Онлайн-запись</h2>
-            <form class="online-form">
-              <div class="online-form-wrap">
-                <label class="online-form-label">
+            <h2 class="online__title font-title">Онлайн-запись</h2>
+            <form class="recording">
+              <div class="recording__wrap">
+                <label class="recording__label">
                   <input
-                    class="online-form-input"
+                    class="recording__input"
                     type="text"
-                    name="online-name"
+                    name="recording-name"
                     placeholder=" "
                     required
                   />
-                  <span class="online-label-text">Имя*</span>
+                  <span class="recording__text">Имя*</span>
                 </label>
-                <label class="online-form-label">
+                <label class="recording__label">
                   <input
-                    class="online-form-input"
+                    class="recording__input"
                     type="tel"
-                    name="online-tel"
+                    name="recording-tel"
                     placeholder=" "
                     required
                   />
-                  <span class="online-label-text">Телефон*</span>
+                  <span class="recording__text">Телефон*</span>
                 </label>
               </div>
-              <label class="online-label-textarea">
+              <label class="recording__label recording__label--textarea">
                 <textarea
-                  class="online-input-textarea"
-                  name="online-comment"
+                  class="recording__input recording__input--textarea"
+                  name="recording-comment"
                   placeholder=" "
                 ></textarea>
-                <span class="online-label-text">Сообщение</span>
+                <span class="recording__text">Сообщение</span>
               </label>
-              <button class="first-btn btn" type="submit">Отправить</button>
+              <button class="btn btn--first" type="submit">Отправить</button>
             </form>
           </section>
           <!-- Секция контакты -->
           <section id="contacts" class="contacts">
-            <div class="contacts-wrap">
-              <h2 class="contacts-title title">Контакты</h2>
+            <div class="contacts__wrap">
+              <h2 class="contacts__title font-title">Контакты</h2>
               <address class="address">
-                <ul class="contacts-list list">
-                  <li class="item">
+                <ul class="address__list">
+                  <li class="address__item">
                     <a
-                      class="link contacts-text text"
+                      class="address__link contacts__text font-text"
                       href="https://goo.gl/maps/YjysKKPajJtUrSyb9"
                       target="_blank"
                       rel="noopener noreferrer nofollow "
                       aria-label="Адрес"
-                      ><svg class="icon-contacts" width="24" height="24">
+                      ><svg class="address__icon" width="24" height="24">
                         <use href="./images/icons.svg#icon-map-pin"></use>
                       </svg>
                       ул. Васильковская, 7А Киев, 08132</a
                     >
                   </li>
-                  <li class="item">
-                    <a class="link contacts-text text" href="tel:+380441111111" aria-label="Телефон"
-                      ><svg class="icon-contacts" width="24" height="24">
+                  <li class="address__item">
+                    <a
+                      class="address__link contacts__text font-text"
+                      href="tel:+380441111111"
+                      aria-label="Телефон"
+                      ><svg class="address__icon" width="24" height="24">
                         <use href="./images/icons.svg#icon-phone"></use>
                       </svg>
                       +38 044 111 11 11</a
                     >
                   </li>
-                  <li class="item">
+                  <li class="address__item">
                     <a
-                      class="contacts-text text email"
+                      class="address__link contacts__text font-text address__link--email"
                       href="mailto:barbershop@email.com"
                       aria-label="Электронная почта"
-                      ><svg class="icon-contacts" width="24" height="24">
+                      ><svg class="address__icon" width="24" height="24">
                         <use href="./images/icons.svg#icon-mail"></use>
                       </svg>
                       barbershop@email.com</a
@@ -482,8 +485,8 @@
                   </li>
                 </ul>
               </address>
-              <p class="contacts-pre-title pre-title">время работы</p>
-              <p class="contacts-text text">Ежедневно с 9:00 до 22:00</p>
+              <p class="contacts__pre-title pre-title">время работы</p>
+              <p class="contacts__text font-text">Ежедневно с 9:00 до 22:00</p>
             </div>
           </section>
         </div>

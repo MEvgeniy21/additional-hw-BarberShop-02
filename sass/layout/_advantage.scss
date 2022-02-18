@@ -9,12 +9,11 @@
   justify-content: space-between;
 }
 
-.advantage__box-left,
-.advantage__box-right {
+.advantage__box {
   width: calc((100% - #{$image-distance}) / 2);
 }
 
-.advantage__box-left {
+.advantage__box--left {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -69,7 +68,7 @@
   letter-spacing: 0.01em;
 }
 
-.advantage__box-right {
+.advantage__box--right {
   padding-top: 9px;
   padding-bottom: 9px;
 }

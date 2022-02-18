@@ -9,6 +9,7 @@
 @import './components/common/btn';
 @import './components/common/logo';
 @import './components/common/navigation';
+@import './components/common/address';
 @import './components/list/info-list';
 @import './components/text/pre-title';
 @import './components/text/font-info';
@@ -16,6 +17,7 @@
 @import './components/text/font-title';
 @import './components/list/card-list';
 @import './components/list/social-list';
+@import './components/form/recording';
 
 @import './layout/header';
 @import './layout/footer';
@@ -25,3 +27,6 @@
 @import './layout/advantage';
 @import './layout/masters';
 @import './layout/gallery';
+@import './layout/feedback';
+@import './layout/online';
+@import './layout/contacts';

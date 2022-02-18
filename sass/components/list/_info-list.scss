@@ -16,7 +16,7 @@
 }
 
 .info-list__link {
-  @extend %link;
+  @include link(none);
   color: $primary-pre-title-color;
   transition: color $general-transition-time $primary-cubic-bezier;
   &:hover,

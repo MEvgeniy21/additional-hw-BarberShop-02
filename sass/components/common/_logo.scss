@@ -1,5 +1,5 @@
 .logo {
-  @extend %link;
+  @include link(none);
   position: relative;
   display: block;
   width: 66px;
